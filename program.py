@@ -20,12 +20,12 @@ while guess != the_number:
     if guess < the_number:
         print('too low, sucka.')
     elif guess > the_number:
-        print('to damn high.')
+        print('too damn high.')
     elif guess == the_number:
-        print('Yup.')
+        print('Yay. You win goodbye.')
     else:
         'WTF kinda guess is that?'
 
-print ('done')
+print ('done.')
 
 exit()
